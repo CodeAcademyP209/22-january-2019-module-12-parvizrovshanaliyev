@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyEventsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddWorkers">
+    <Key>
+      <PropertyRef Name="WorkerId" />
+    </Key>
+    <Property Name="WorkerId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkerName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WorkerSurname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WorkerEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WorkerPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="WorkerNumber" Type="int" Nullable="false" />
+    <Property Name="WorkerRegisterDate" Type="date" Nullable="false" />
+    <Property Name="Worker_WorkId" Type="int" Nullable="false" />
+    <Property Name="Worker_EventId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkerWork">
+    <Key>
+      <PropertyRef Name="Worker_WorkId" />
+    </Key>
+    <Property Name="Worker_WorkId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Worker_WorkName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="workers_to_work">
+    <End Role="WorkerWork" Type="Self.WorkerWork" Multiplicity="1" />
+    <End Role="AddWorkers" Type="Self.AddWorkers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkerWork">
+        <PropertyRef Name="Worker_WorkId" />
+      </Principal>
+      <Dependent Role="AddWorkers">
+        <PropertyRef Name="Worker_WorkId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyEventsModelStoreContainer">
+    <EntitySet Name="AddWorkers" EntityType="Self.AddWorkers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkerWork" EntityType="Self.WorkerWork" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="workers_to_work" Association="Self.workers_to_work">
+      <End Role="WorkerWork" EntitySet="WorkerWork" />
+      <End Role="AddWorkers" EntitySet="AddWorkers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CompanyEventsModelStoreContainer" CdmEntityContainer="CompanyEventsEntities">
+    <EntitySetMapping Name="AddWorkers">
+      <EntityTypeMapping TypeName="CompanyEventsModel.AddWorker">
+        <MappingFragment StoreEntitySet="AddWorkers">
+          <ScalarProperty Name="WorkerId" ColumnName="WorkerId" />
+          <ScalarProperty Name="WorkerName" ColumnName="WorkerName" />
+          <ScalarProperty Name="WorkerSurname" ColumnName="WorkerSurname" />
+          <ScalarProperty Name="WorkerEmail" ColumnName="WorkerEmail" />
+          <ScalarProperty Name="WorkerPassword" ColumnName="WorkerPassword" />
+          <ScalarProperty Name="WorkerNumber" ColumnName="WorkerNumber" />
+          <ScalarProperty Name="WorkerRegisterDate" ColumnName="WorkerRegisterDate" />
+          <ScalarProperty Name="Worker_WorkId" ColumnName="Worker_WorkId" />
+          <ScalarProperty Name="Worker_EventId" ColumnName="Worker_EventId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkerWorks">
+      <EntityTypeMapping TypeName="CompanyEventsModel.WorkerWork">
+        <MappingFragment StoreEntitySet="WorkerWork">
+          <ScalarProperty Name="Worker_WorkId" ColumnName="Worker_WorkId" />
+          <ScalarProperty Name="Worker_WorkName" ColumnName="Worker_WorkName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,57 @@
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe.config
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.pdb
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\CompanyEvent.csprojAssemblyReference.cache
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.ControlPanel.resources
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventHall.resources
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventRoomReserve.resources
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.Properties.Resources.resources
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.SingleReservation.resources
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.GenerateResource.cache
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CoreCompileInputs.cache
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.pdb
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\EntityFramework.dll
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.dll
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\EntityFramework.xml
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.xml
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CopyComplete
+D:\myworksCA\c#\CompanyEvent\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.AddWorker.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe.config
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.pdb
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\EntityFramework.dll
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.dll
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\EntityFramework.xml
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.xml
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\CompanyEvent.csprojAssemblyReference.cache
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.AddWorker.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.ControlPanel.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventHall.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventRoomReserve.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.Properties.Resources.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.SingleReservation.resources
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.GenerateResource.cache
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CoreCompileInputs.cache
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CopyComplete
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent - Copy (2)\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.pdb
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe.config
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\Karimovun_Eventi.pdb
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\EntityFramework.dll
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.dll
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\EntityFramework.xml
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\bin\Debug\EntityFramework.SqlServer.xml
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\CompanyEvent.csprojAssemblyReference.cache
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.AddWorker.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.ControlPanel.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventHall.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.EventRoomReserve.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.Properties.Resources.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.SingleReservation.resources
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.GenerateResource.cache
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CoreCompileInputs.cache
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\CompanyEvent.csproj.CopyComplete
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.exe
+D:\myworksCA\c#\CompanyEvent - esas\Karimovun_Eventi\obj\Debug\Karimovun_Eventi.pdb

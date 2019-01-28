@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CompanyEventsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AddWorker">
+    <Key>
+      <PropertyRef Name="WorkerId" />
+    </Key>
+    <Property Name="WorkerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkerName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="WorkerSurname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="WorkerEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="WorkerPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="WorkerNumber" Type="Int32" Nullable="false" />
+    <Property Name="WorkerRegisterDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Worker_WorkId" Type="Int32" Nullable="false" />
+    <Property Name="Worker_EventId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="WorkerWork" Relationship="Self.workers_to_work" FromRole="AddWorkers" ToRole="WorkerWork" />
+  </EntityType>
+  <EntityType Name="WorkerWork">
+    <Key>
+      <PropertyRef Name="Worker_WorkId" />
+    </Key>
+    <Property Name="Worker_WorkId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Worker_WorkName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AddWorkers" Relationship="Self.workers_to_work" FromRole="WorkerWork" ToRole="AddWorkers" />
+  </EntityType>
+  <Association Name="workers_to_work">
+    <End Role="WorkerWork" Type="Self.WorkerWork" Multiplicity="1" />
+    <End Role="AddWorkers" Type="Self.AddWorker" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkerWork">
+        <PropertyRef Name="Worker_WorkId" />
+      </Principal>
+      <Dependent Role="AddWorkers">
+        <PropertyRef Name="Worker_WorkId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="CompanyEventsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AddWorkers" EntityType="Self.AddWorker" />
+    <EntitySet Name="WorkerWorks" EntityType="Self.WorkerWork" />
+    <AssociationSet Name="workers_to_work" Association="Self.workers_to_work">
+      <End Role="WorkerWork" EntitySet="WorkerWorks" />
+      <End Role="AddWorkers" EntitySet="AddWorkers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
